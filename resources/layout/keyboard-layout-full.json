@@ -1,0 +1,258 @@
+[
+  {
+    "backcolor": "#d1cbcb",
+    "switchMount": "cherry",
+    "switchBrand": "gateron",
+    "switchType": "KS-3-Black",
+    "pcb": false
+  },
+  [
+    {
+      "x": 3,
+      "c": "#c4c8c5",
+      "sb": "cherry",
+      "a": 0,
+      "fa": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "~\n\n\nEsc\n\n1\n\n\n\n`",
+    "\n\n\nF1\n\n1\n\n\n\n1",
+    "\n\n\nF2\n\n1\n\n\n\n2",
+    "\n\n\nF3\n\n1\n\n\n\n3",
+    "\n\n\nF4\n\n1\n\n\n\n4",
+    "\n\n\nF5\n\n1\n\n\n\n5",
+    "\n\n\nF6\n\n1\n\n\n\n6",
+    "\n\n\nF7\n\n1\n\n\n\n7",
+    "\n\n\nF8\n\n1\n\n\n\n8",
+    "\n\n\nF9\n\n1\n\n\n\n9",
+    "\n\n\nF10\n\n1\n\n\n\n0",
+    {
+      "fa": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "_\n\n\nF11\n\n1\n\n\n\n-",
+    {
+      "fa": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "+\n\n\nF12\n\n1\n\n\n\n="
+  ],
+  [
+    {
+      "x": 3,
+      "a": 3,
+      "w": 1.5
+    },
+    "Tab\n\n\n\n\n1.5",
+    "Q\n\n\n\n\n1",
+    "W\n\n\n\n\n1",
+    "E\n\n\n\n\n1",
+    "R\n\n\n\n\n1",
+    "T\n\n\n\n\n1",
+    "Y\n\n\n\n\n1",
+    {
+      "a": 0
+    },
+    "\n\n\nPgUp\n\n1\n\n\n\nU",
+    "\n\n\n🡩\n\n1\n\n\n\nI",
+    {
+      "a": 3
+    },
+    "O\n\n\n\n\n1",
+    "P\n\n\n\n\n1",
+    {
+      "a": 0,
+      "w": 1.5
+    },
+    "?\n\n\n\\\n\n1.5\n\n\n\n/"
+  ],
+  [
+    {
+      "x": 3,
+      "w": 1.5
+    },
+    "\n\n\nDel\n\n1.5\n\n\n\nBackspace",
+    {
+      "a": 3
+    },
+    "A\n\n\n\n\n1",
+    "S\n\n\n\n\n1",
+    "D\n\n\n\n\n1",
+    "F\n\n\n\n\n1",
+    {
+      "a": 0
+    },
+    "\n\n\nHome\n\n1\n\n\n\nG",
+    "\n\n\nEnd\n\n1\n\n\n\nH",
+    "\n\n\n🡨\n\n1\n\n\n\nJ",
+    "\n\n\n🡫\n\n1\n\n\n\nK",
+    "\n\n\n🡪\n\n1\n\n\n\nL",
+    ":\n\n\n'\n\n1\n\n\n\n;",
+    {
+      "a": 3,
+      "w": 1.5
+    },
+    "Enter\n\n\n\n\n1.5"
+  ],
+  [
+    {
+      "x": 0.5,
+      "c": "#c83337"
+    },
+    "Shift\n\n\n\n\n1",
+    "ISO\n\n\n\n\n1",
+    {
+      "x": 0.5,
+      "w": 2
+    },
+    "Shift\n\n\n\n\n2",
+    {
+      "c": "#c4c8c5"
+    },
+    "Z\n\n\n\n\n1",
+    "X\n\n\n\n\n1",
+    "C\n\n\n\n\n1",
+    "V\n\n\n\n\n1",
+    "B\n\n\n\n\n1",
+    {
+      "a": 0
+    },
+    "\n\n\nPgDn\n\n1\n\n\n\nN",
+    {
+      "a": 3
+    },
+    "M\n\n\n\n\n1",
+    {
+      "a": 0
+    },
+    "<\n\n\n[\n\n1\n\n\n\n,",
+    ">\n\n\n]\n\n1\n\n\n\n.",
+    {
+      "c": "#2790c2",
+      "a": 3,
+      "w": 2
+    },
+    "Shift\n\n\n\n\n2",
+    {
+      "x": 2.5,
+      "a": 0
+    },
+    "?\n\n\n\n\n1\n\n\n\n/",
+    {
+      "a": 3
+    },
+    "Shift\n\n\n\n\n1"
+  ],
+  [
+    {
+      "x": 3,
+      "c": "#c4c8c5",
+      "w": 1.5
+    },
+    "Ctrl\n\n\n\n\n1.5",
+    "Super\n\n\n\n\n1",
+    {
+      "w": 1.5
+    },
+    "Alt\n\n\n\n\n1.5",
+    {
+      "w": 2.25
+    },
+    "Fn\n\n\n\n\n2.25",
+    {
+      "w": 2.75
+    },
+    "\n\n\n\n\n2.75",
+    {
+      "c": "#006d59",
+      "w": 1.5
+    },
+    "Alt\n\n\n\n\n1.5",
+    "Menu\n\n\n\n\n1",
+    {
+      "w": 1.5
+    },
+    "Ctrl\n\n\n\n\n1.5",
+    {
+      "x": 0.5
+    },
+    "Alt\n\n\n\n\n1",
+    "Super\n\n\n\n\n1",
+    "Menu\n\n\n\n\n1",
+    "Ctrl\n\n\n\n\n1"
+  ],
+  [
+    {
+      "y": 1,
+      "x": 3,
+      "c": "#c4c8c5",
+      "w": 1.5
+    },
+    "Shift\n\n\n\n\n1.5",
+    "Z\n\n\n\n\n1",
+    "X\n\n\n\n\n1",
+    "C\n\n\n\n\n1",
+    "V\n\n\n\n\n1",
+    "B\n\n\n\n\n1",
+    "N\n\n\n\n\n1",
+    "M\n\n\n\n\n1",
+    {
+      "a": 0
+    },
+    "<\n\n\n\n\n1\n\n\n\n,",
+    ">\n\n\n\n\n1\n\n\n\n.",
+    "?\n\n\n\n\n1\n\n\n\n/",
+    {
+      "a": 3,
+      "w": 1.5
+    },
+    "Shift\n\n\n\n\n1.5"
+  ],
+  [
+    {
+      "x": 3,
+      "w": 1.25
+    },
+    "Ctrl\n\n\n\n\n1.25",
+    {
+      "w": 1.25
+    },
+    "Super\n\n\n\n\n1.25",
+    {
+      "w": 1.25
+    },
+    "Alt\n\n\n\n\n1.25",
+    {
+      "w": 2.75
+    },
+    "Fn\n\n\n\n\n2.75",
+    {
+      "w": 2.75
+    },
+    "\n\n\n\n\n2.75",
+    {
+      "w": 1.25
+    },
+    "Alt\n\n\n\n\n1.25",
+    {
+      "w": 1.25
+    },
+    "Menu\n\n\n\n\n1.25",
+    {
+      "w": 1.25
+    },
+    "Ctrl\n\n\n\n\n1.25"
+  ]
+]
