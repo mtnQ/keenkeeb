@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:keenkeeb
 LIBS:keyboard_parts
 LIBS:pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -57,7 +58,7 @@ AR Path="/585B7C6B" Ref="R3"  Part="1"
 AR Path="/585C991A/585B7C6B" Ref="R3"  Part="1" 
 F 0 "R3" V 7480 4350 50  0000 C CNN
 F 1 "10K" V 7400 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7400 4350 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" H 7400 4350 60  0001 C CNN
 F 3 "" H 7400 4350 60  0001 C CNN
 	1    7400 4350
 	0    1    -1   0   
@@ -88,7 +89,7 @@ U 1 1 587B7BB0
 P 3850 5150
 F 0 "OSC0" H 3850 5300 60  0000 C CNN
 F 1 "XTAL_GND" H 3850 5000 60  0000 C CNN
-F 2 "keyboard_parts:FA-238" H 3850 5150 60  0001 C CNN
+F 2 "footprints:OSC_EpsonFA238_SMD" H 3850 5150 60  0001 C CNN
 F 3 "" H 3850 5150 60  0000 C CNN
 	1    3850 5150
 	1    0    0    -1  
@@ -112,7 +113,7 @@ AR Path="/587C0174" Ref="C0"  Part="1"
 AR Path="/585C991A/587C0174" Ref="C0"  Part="1" 
 F 0 "C0" V 4150 3800 50  0000 L CNN
 F 1 "1u" V 4150 3600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4200 3750 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4200 3750 60  0001 C CNN
 F 3 "" H 4200 3750 60  0001 C CNN
 	1    4200 3750
 	0    1    1    0   
@@ -280,7 +281,7 @@ AR Path="/587C0CFD" Ref="R0"  Part="1"
 AR Path="/585C991A/587C0CFD" Ref="R0"  Part="1" 
 F 0 "R0" V 3130 4050 50  0000 C CNN
 F 1 "10K" V 3050 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3050 4050 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" H 3050 4050 60  0001 C CNN
 F 3 "" H 3050 4050 60  0001 C CNN
 	1    3050 4050
 	1    0    0    -1  
@@ -308,7 +309,7 @@ AR Path="/587C1927" Ref="C2"  Part="1"
 AR Path="/585C991A/587C1927" Ref="C2"  Part="1" 
 F 0 "C2" H 4250 5500 50  0000 L CNN
 F 1 "22p" H 4250 5300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4200 5400 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4200 5400 60  0001 C CNN
 F 3 "" H 4200 5400 60  0001 C CNN
 	1    4200 5400
 	1    0    0    -1  
@@ -321,7 +322,7 @@ AR Path="/587C1976" Ref="C1"  Part="1"
 AR Path="/585C991A/587C1976" Ref="C1"  Part="1" 
 F 0 "C1" H 3350 5500 50  0000 L CNN
 F 1 "22p" H 3350 5300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3500 5400 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 3500 5400 60  0001 C CNN
 F 3 "" H 3500 5400 60  0001 C CNN
 	1    3500 5400
 	1    0    0    -1  
@@ -395,7 +396,7 @@ AR Path="/587C3C75" Ref="R1"  Part="1"
 AR Path="/585C991A/587C3C75" Ref="R1"  Part="1" 
 F 0 "R1" V 4550 3450 50  0000 C CNN
 F 1 "22" V 4650 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4650 3450 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" H 4650 3450 60  0001 C CNN
 F 3 "" H 4650 3450 60  0001 C CNN
 	1    4650 3450
 	0    1    1    0   
@@ -408,7 +409,7 @@ AR Path="/587C3DFA" Ref="R2"  Part="1"
 AR Path="/585C991A/587C3DFA" Ref="R2"  Part="1" 
 F 0 "R2" V 4730 3550 50  0000 C CNN
 F 1 "22" V 4650 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4650 3550 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" H 4650 3550 60  0001 C CNN
 F 3 "" H 4650 3550 60  0001 C CNN
 	1    4650 3550
 	0    1    1    0   
@@ -456,7 +457,7 @@ AR Path="/587C8FD9" Ref="C3"  Part="1"
 AR Path="/585C991A/587C8FD9" Ref="C3"  Part="1" 
 F 0 "C3" H 8000 3450 50  0000 L CNN
 F 1 "1u" H 8000 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7950 3350 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 7950 3350 60  0001 C CNN
 F 3 "" H 7950 3350 60  0001 C CNN
 	1    7950 3350
 	1    0    0    -1  
@@ -469,7 +470,7 @@ AR Path="/587C9145" Ref="C4"  Part="1"
 AR Path="/585C991A/587C9145" Ref="C4"  Part="1" 
 F 0 "C4" H 8300 3450 50  0000 L CNN
 F 1 "0.1u" H 8300 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8250 3350 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 8250 3350 60  0001 C CNN
 F 3 "" H 8250 3350 60  0001 C CNN
 	1    8250 3350
 	1    0    0    -1  
@@ -482,7 +483,7 @@ AR Path="/587C91CC" Ref="C5"  Part="1"
 AR Path="/585C991A/587C91CC" Ref="C5"  Part="1" 
 F 0 "C5" H 8600 3450 50  0000 L CNN
 F 1 "0.1u" H 8600 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8550 3350 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 8550 3350 60  0001 C CNN
 F 3 "" H 8550 3350 60  0001 C CNN
 	1    8550 3350
 	1    0    0    -1  
@@ -495,7 +496,7 @@ AR Path="/587C9253" Ref="C6"  Part="1"
 AR Path="/585C991A/587C9253" Ref="C6"  Part="1" 
 F 0 "C6" H 8900 3450 50  0000 L CNN
 F 1 "0.1u" H 8900 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8850 3350 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 8850 3350 60  0001 C CNN
 F 3 "" H 8850 3350 60  0001 C CNN
 	1    8850 3350
 	1    0    0    -1  
@@ -508,7 +509,7 @@ AR Path="/587C92F4" Ref="C7"  Part="1"
 AR Path="/585C991A/587C92F4" Ref="C7"  Part="1" 
 F 0 "C7" H 9200 3450 50  0000 L CNN
 F 1 "0.1u" H 9200 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9150 3350 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 9150 3350 60  0001 C CNN
 F 3 "" H 9150 3350 60  0001 C CNN
 	1    9150 3350
 	1    0    0    -1  
@@ -547,9 +548,9 @@ Text HLabel 7100 3850 2    60   BiDi ~ 0
 Col10
 Text HLabel 7100 4850 2    60   BiDi ~ 0
 Row3
-Text HLabel 7100 4750 2    60   BiDi ~ 0
-Row4
 Text HLabel 7100 4650 2    60   BiDi ~ 0
+Row4
+Text HLabel 7100 4750 2    60   BiDi ~ 0
 Row5
 Text HLabel 4950 3250 0    60   Input ~ 0
 Col2

@@ -1,4 +1,4 @@
-update=08-May-17 22:24:58
+update=11-May-17 22:38:22
 version=1
 last_client=eeschema
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=lib;G:/Programs/KiCad/additional_libraries/kicad_lib_tmk-master
+LibDir=components;G:/Programs/KiCad/additional_libraries/kicad_lib_tmk-master
 [eeschema/libraries]
 LibName1=pcb-rescue
 LibName2=power
@@ -59,4 +59,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=G:/Programs/KiCad/additional_libraries/kicad_lib_tmk-master/keyboard_parts
+LibName31=keenkeeb
+LibName32=G:/Programs/KiCad/additional_libraries/kicad_lib_tmk-master/keyboard_parts
