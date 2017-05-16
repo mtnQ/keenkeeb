@@ -344,6 +344,7 @@ S 4000 4800 1200 1850
 U 591558FE
 F0 "underglow" 60
 F1 "Underglow.sch" 60
+F2 "Din" I L 4000 4900 60 
 $EndSheet
 $Comp
 L FUSE F1
@@ -358,4 +359,9 @@ F 3 "" H 3600 2000 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3600 1650 3600 1750
+Wire Wire Line
+	4000 4900 3800 4900
+Wire Wire Line
+	3800 4900 3800 3850
+Connection ~ 3800 3850
 $EndSCHEMATC
