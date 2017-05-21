@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WS2812b
+D WS2812b SMT LED
+K LED
+$ENDCMP
+#
+#End Doc Library

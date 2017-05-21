@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:keenkeeb
 LIBS:keyboard_parts
 LIBS:pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -59,12 +60,12 @@ $EndComp
 $Comp
 L VCC #PWR01
 U 1 1 587BC255
-P 3600 2250
-F 0 "#PWR01" H 3600 2350 30  0001 C CNN
-F 1 "VCC" H 3600 2350 30  0000 C CNN
-F 2 "" H 3600 2250 60  0001 C CNN
-F 3 "" H 3600 2250 60  0001 C CNN
-	1    3600 2250
+P 3600 1650
+F 0 "#PWR01" H 3600 1750 30  0001 C CNN
+F 1 "VCC" H 3600 1750 30  0000 C CNN
+F 2 "" H 3600 1650 60  0001 C CNN
+F 3 "" H 3600 1650 60  0001 C CNN
+	1    3600 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -208,7 +209,7 @@ U 1 1 590FE2D7
 P 4900 1700
 F 0 "D1" H 4900 1800 50  0000 C CNN
 F 1 "LED" H 4900 1600 50  0000 C CNN
-F 2 "Keyboards:LED_3mm_plusminus" H 4900 1700 60  0001 C CNN
+F 2 "footprints:LED_3mm_plusminus" H 4900 1700 60  0001 C CNN
 F 3 "" H 4900 1700 60  0001 C CNN
 	1    4900 1700
 	-1   0    0    1   
@@ -225,12 +226,12 @@ F 3 "" H 5200 1800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R R5
 U 1 1 591032AE
 P 4350 1700
-F 0 "R4" V 4430 1700 50  0000 C CNN
+F 0 "R5" V 4430 1700 50  0000 C CNN
 F 1 "100" V 4350 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4350 1700 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" H 4350 1700 60  0001 C CNN
 F 3 "" H 4350 1700 60  0001 C CNN
 	1    4350 1700
 	0    1    1    0   
@@ -338,4 +339,29 @@ Wire Wire Line
 	4500 1700 4700 1700
 Wire Wire Line
 	5100 1700 5200 1700
+$Sheet
+S 4000 4800 1200 1850
+U 591558FE
+F0 "underglow" 60
+F1 "Underglow.sch" 60
+F2 "Din" I L 4000 4900 60 
+$EndSheet
+$Comp
+L FUSE F1
+U 1 1 5916B62D
+P 3600 2000
+F 0 "F1" H 3700 2050 50  0000 C CNN
+F 1 "FUSE" H 3500 1950 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 3600 2000 50  0001 C CNN
+F 3 "" H 3600 2000 50  0000 C CNN
+	1    3600 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 1650 3600 1750
+Wire Wire Line
+	4000 4900 3800 4900
+Wire Wire Line
+	3800 4900 3800 3850
+Connection ~ 3800 3850
 $EndSCHEMATC
