@@ -63,25 +63,25 @@ F 3 "" H 7400 4350 60  0001 C CNN
 	1    7400 4350
 	0    1    -1   0   
 $EndComp
-Text HLabel 7100 3550 2    60   BiDi ~ 0
+Text HLabel 8000 4200 2    60   BiDi ~ 0
 Col4
-Text HLabel 7100 3650 2    60   BiDi ~ 0
+Text HLabel 7100 4550 2    60   BiDi ~ 0
 Col6
-Text HLabel 7100 3750 2    60   BiDi ~ 0
+Text HLabel 7750 3900 2    60   BiDi ~ 0
 Col8
-Text HLabel 7100 3950 2    60   BiDi ~ 0
+Text HLabel 7100 4650 2    60   BiDi ~ 0
 Col12
-Text HLabel 4950 5150 0    60   BiDi ~ 0
+Text HLabel 7100 4750 2    60   BiDi ~ 0
 Col13
 Text HLabel 4950 5250 0    60   BiDi ~ 0
 Col11
 Text HLabel 4950 5350 0    60   BiDi ~ 0
 Col9
-Text HLabel 7100 5150 2    60   BiDi ~ 0
+Text HLabel 7100 4450 2    60   BiDi ~ 0
 Col7
-Text HLabel 7100 5050 2    60   BiDi ~ 0
+Text HLabel 8550 4600 2    60   BiDi ~ 0
 Col5
-Text HLabel 7100 4950 2    60   BiDi ~ 0
+Text HLabel 8400 4850 2    60   BiDi ~ 0
 Col3
 $Comp
 L XTAL_GND OSC0
@@ -544,21 +544,21 @@ Connection ~ 8550 3600
 Wire Wire Line
 	8250 3500 8250 3600
 Connection ~ 8250 3600
-Text HLabel 7100 3850 2    60   BiDi ~ 0
+Text HLabel 7950 4050 2    60   BiDi ~ 0
 Col10
-Text HLabel 7100 4850 2    60   BiDi ~ 0
+Text HLabel 7900 4950 2    60   BiDi ~ 0
 Row3
-Text HLabel 7100 4650 2    60   BiDi ~ 0
+Text HLabel 7950 4650 2    60   BiDi ~ 0
 Row4
-Text HLabel 7100 4750 2    60   BiDi ~ 0
+Text HLabel 7100 5150 2    60   BiDi ~ 0
 Row5
 Text HLabel 4950 3250 0    60   Input ~ 0
 Col2
-Text HLabel 7100 4050 2    60   BiDi ~ 0
+Text HLabel 8500 4150 2    60   BiDi ~ 0
 Col1
-Text HLabel 7100 4450 2    60   BiDi ~ 0
+Text HLabel 8400 4400 2    60   BiDi ~ 0
 Row2
-Text HLabel 7100 4550 2    60   BiDi ~ 0
+Text HLabel 7900 4500 2    60   BiDi ~ 0
 Row1
 Text HLabel 4950 4950 0    60   BiDi ~ 0
 SCL
