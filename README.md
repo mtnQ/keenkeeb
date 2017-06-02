@@ -1,4 +1,4 @@
 # keenkeeb
 
 
-![alt text](resources/layout/keyboard-layout.png "Layout of keyboard")
+![alt text](resources/layout/keenkeeb-rev1.png "Layout of keyboard")
