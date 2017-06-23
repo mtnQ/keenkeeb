@@ -2037,4 +2037,5 @@ Wire Notes Line
 	6300 6700 6300 6600
 Wire Notes Line
 	2300 6700 2300 6600
+Connection ~ 7300 5650
 $EndSCHEMATC
