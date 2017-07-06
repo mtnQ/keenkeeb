@@ -572,9 +572,6 @@ Text HLabel 4950 4050 0    60   BiDi ~ 0
 SCK
 Text HLabel 2750 4450 0    60   Input ~ 0
 nRST
-NoConn ~ 4950 3950
-Text HLabel 4400 4200 0    60   Output ~ 0
-LED
 Wire Wire Line
 	3050 3900 3050 3800
 Wire Wire Line
@@ -587,4 +584,6 @@ Wire Wire Line
 	4400 3450 4500 3450
 Text HLabel 4950 3250 0    60   Output ~ 0
 GLOW
+Text HLabel 4950 3950 0    60   BiDi ~ 0
+SS
 $EndSCHEMATC
