@@ -52,7 +52,7 @@ U 1 1 587B8D02
 P 3200 2500
 F 0 "J0" H 2800 2450 60  0000 C CNN
 F 1 "USB_mini_micro_B" H 3050 2750 60  0001 C CNN
-F 2 "keyboard_parts:USB_miniB_hirose_5S8" H 3150 2500 60  0001 C CNN
+F 2 "footprints:USB_miniB_hirose_5S8" H 3150 2500 60  0001 C CNN
 F 3 "" H 3150 2500 60  0000 C CNN
 	1    3200 2500
 	1    0    0    -1  
